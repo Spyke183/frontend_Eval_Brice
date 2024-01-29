@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citations App</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      #quotesContainer {
+        margin-top: 20px;
+      }
+      .quote {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Citations App</h1>
+    <form id="quoteForm">
+      <input
+        type="text"
+        id="categoryInput"
+        placeholder="Entrez une catégorie (ex: happiness)"
+      />
+      <button type="submit">Récupérer les citations</button>
+    </form>
+
+    <div id="quotesContainer"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
